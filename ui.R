@@ -10,9 +10,19 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       sliderInput("lambda",
-                  "Probability of event occuring in a single trial:",
+                  "Probability 1:",
                   min = 0,
-                  max = 1,
+                  max = 0.1,
+                  value = 0.01),
+      sliderInput("lambda2",
+                  "Probability 2:",
+                  min = 0,
+                  max = 0.1,
+                  value = 0.01),
+      sliderInput("lambda3",
+                  "Probability 3:",
+                  min = 0,
+                  max = 0.1,
                   value = 0.01)
     ),
     
