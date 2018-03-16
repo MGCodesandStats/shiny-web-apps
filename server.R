@@ -21,15 +21,15 @@ shinyServer(function(input, output) {
     
     # generate trials based on lambda value
     muCalculation <- function(lambda, powers) {1 - ((1 - lambda)^powers)}
-    probability_at_lambda <- sapply(input$lambda, muCalculation, seq(0, 100, 10))
-    probability_at_lambda2 <- sapply(input$lambda2, muCalculation, seq(0, 100, 10))
-    probability_at_lambda3 <- sapply(input$lambda3, muCalculation, seq(0, 100, 10))
+    probability_at_lambda <- sapply(input$lambda, muCalculation, seq(0, 100, 1))
+    probability_at_lambda2 <- sapply(input$lambda2, muCalculation, seq(0, 100, 1))
+    probability_at_lambda3 <- sapply(input$lambda3, muCalculation, seq(0, 100, 1))
     
     # draw the probability
     par(bg = '#191661', fg = '#ffffff', col.main = '#ffffff', col.lab = '#ffffff', col.axis = '#ffffff')
-    plot(probability_at_lambda, type = "o", col = 'white', border = 'white', xlab="N", ylab ="Probability 1", ylim=c(0.0, 1.0))
-    lines(probability_at_lambda2,type="o",col="red", xlab="N", ylab="Probability 2", ylim=c(0.0, 1.0))
-    lines(probability_at_lambda3,type="o",col="green", xlab="N", ylab="Probability 3", ylim=c(0.0, 1.0))
+    plot(probability_at_lambda,type="o",col="#b1aef4", xlab="N", ylab="Probability", xlim=c(0, 100), ylim=c(0.0, 1.0), pch=19)
+    lines(probability_at_lambda2,type="o",col="red", xlab="N", ylab="Probability2", xlim=c(0, 100), ylim=c(0.0, 1.0), pch=19)
+    lines(probability_at_lambda3,type="o",col="green", xlab="N", ylab="Probability3", xlim=c(0, 100), ylim=c(0.0, 1.0), pch=19)
     title(main="Cumulative Binomial Probability Plot")
   })
   
