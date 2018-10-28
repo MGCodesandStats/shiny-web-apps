@@ -7,3 +7,7 @@ Here is how we can use Shiny to:
 
 
 2. Automate currency plots sourced from the quantmod library
+
+
+        shiny-web-apps/chfusd.png
+      
