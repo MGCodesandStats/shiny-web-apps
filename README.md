@@ -1,7 +1,7 @@
-# Cumulative Binomial Probability Plot: Shiny
+# Shiny Web Applications
 
-This Shiny app allows the user to generate a cumulative binomial probability curve by adjusting the lambda value according to the slider.
+Here is how we can use Shiny to:
 
-The curve is calculated on the basis of the formula:
+1. Generate a cumulative binomial probability curve
 
-1 - ((1 - λ)^trials)
+2. Automate currency plots sourced from the quantmod library
