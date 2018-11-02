@@ -12,4 +12,4 @@ Here is how we can use Shiny to:
 
 3. Display latitude and longitude on a map
 
-![maps](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/maps.png)
+![maps](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/map.png)
