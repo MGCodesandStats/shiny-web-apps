@@ -10,6 +10,6 @@ These are examples of Shiny Web Apps used to:
 
 ![chfusd](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/chfusd.png)
 
-## 3. Display latitude and longitude on a map
+## 3. Display latitude and longitude on a world map
 
 ![maps](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/map.png)
