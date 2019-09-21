@@ -1,6 +1,6 @@
 # Shiny Web Applications
 
-These are examples of Shiny Web Apps used to:
+Here are examples of Shiny Web Apps used to:
 
 ## 1. Generate a cumulative binomial probability curve
 
