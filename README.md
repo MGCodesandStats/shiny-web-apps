@@ -8,7 +8,7 @@ Here are examples of Shiny Web Apps used to:
 
 ## 2. Generate a dynamic Poisson distribution
 
-
+![poisson](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/poisson.png)
 
 ## 3. Automate currency plots sourced from the quantmod library
 
