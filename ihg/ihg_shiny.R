@@ -1,4 +1,4 @@
-# https://community.plotly.com/t/incorporate-a-plotly-graph-into-a-shiny-app/5329/2
+# Reference: https://community.plotly.com/t/incorporate-a-plotly-graph-into-a-shiny-app/5329/2
 
 library(shiny)
 library(plotly)
