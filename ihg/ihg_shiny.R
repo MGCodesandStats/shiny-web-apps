@@ -3,6 +3,7 @@
 library(shiny)
 library(plotly)
 
+# Data sourced from: https://www.ihgplc.com/en/-/media/ihg/files/results/2023/q3-2023/ihg-q3-trading-update-2023-supplementary-information-v2.pdf?la=en&hash=2553202D6D3E26B770763E0BCDB0A402
 brand<-c("InterContinental","Kimpton","Hotel Indigo","Crowne Plaza","EVEN Hotels","Holiday Inn Express","Holiday Inn","Staybridge Suites","Candlewood Suites")
 adr<-c(230.53,256.93,186.12,141.82,166.60,136.76,132.08,136.38,103.21)
 revpar<-c(153.69,185.64,130.36,92.46,120.28,101.24,88.93,108.32,79.84)
