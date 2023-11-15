@@ -2,7 +2,7 @@
 
 Here are examples of Shiny Web Apps used to:
 
-## 1. Analyse hotel metrics of IHG quarterly data
+## 1. Analyse hotel metrics of IHG quarterly data using publicly available [Q3 2023](https://www.ihgplc.com/en/-/media/ihg/files/results/2023/q3-2023/ihg-q3-trading-update-2023-supplementary-information-v2.pdf?la=en&hash=2553202D6D3E26B770763E0BCDB0A402) earnings data
 
 ![ihg](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/ihg.gif)
 
