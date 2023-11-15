@@ -4,7 +4,7 @@ Here are examples of Shiny Web Apps used to:
 
 ## 1. Analyse hotel metrics of IHG quarterly data
 
-
+![ihg](https://github.com/MGCodesandStats/shiny-web-apps/blob/master/ihg.gif)
 
 ## 2. Generate a cumulative binomial probability curve
 
