@@ -3,7 +3,7 @@
 library(shiny)
 library(plotly)
 
-brand<-c("Brand A", "Brand A", "Brand A", "Brand A", "Brand A", "Brand A", "Brand A", "Brand A", "Brand A", "Brand A", "Brand B", "Brand B", "Brand B", "Brand B", "Brand B",  "Brand B",  "Brand B",  "Brand B",  "Brand B",  "Brand B")
+product<-c("Product A", "Product A", "Product A", "Product A", "Product A", "Product A", "Product A", "Product A", "Product A", "Product A", "Product B", "Product B", "Product B", "Product B", "Product B",  "Product B",  "Product B",  "Product B",  "Product B",  "Product B")
 price<-c(82,
          87,
          55,
@@ -85,7 +85,7 @@ server <- function(input, output) {
       type = 'scatter',
       mode = 'markers',
       size = size(),
-      color = ~brand,
+      color = ~product,
       colors = 'Paired',
       marker = list(opacity = 0.5, sizemode = 'diameter'))
   )
